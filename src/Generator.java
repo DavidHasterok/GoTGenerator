@@ -21,7 +21,7 @@ public class Generator {
 		String[] prepositions = preposition.getFile();
 		String randomPreposition = RandomObject.getRandom(prepositions);
 		
-		System.out.println("A " + randomNoun1 + " " + randomPreposition + " " + randomNoun2);
+		System.out.println("A " + randomNoun1 + " " + randomPreposition + " " + randomNoun2 + "s");
 		
 	}
 
