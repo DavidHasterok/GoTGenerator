@@ -5,7 +5,7 @@ public class Generator {
 
 	public static void main(String[] args) throws IOException{
 		Random rand = new Random();
-		int volume = rand.nextInt();
+		int volume = rand.nextInt(1000);
 		if (volume < 0) { volume = volume * (-1); }
 		
 		System.out.println("A Song of Ice and Fire " + volume + ":");
